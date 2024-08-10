@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import type { User } from '../../interfaces';
-import connectDB from '../db/db';
+import connectDB from '../db/ifdb';
 import node from '../db/models/node';
 // Fake users data
 const users: User[] = [{ id: 1 }, { id: 2 }, { id: 3 }];
